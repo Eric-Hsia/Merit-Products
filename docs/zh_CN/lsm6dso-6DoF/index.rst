@@ -40,4 +40,4 @@ merit-lsm6dso-6DoF
 .. toctree::
    :maxdepth: 2
 
-  用户指南<user_guide>
+   用户指南 <user_guide>
