@@ -1,0 +1,37 @@
+# .gitignore for Merit-Products
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+
+# Sphinx build output
+docs/en/_build/
+docs/zh_CN/_build/
+docs/en/sphinx-warning-log.txt
+docs/zh_CN/sphinx-warning-log.txt
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# IDF build artifacts
+examples/**/build/
+examples/**/sdkconfig
+examples/**/sdkconfig.old
+examples/**/.cache/
+examples/**/dependencies.lock
+examples/**/managed_components/

@@ -1,0 +1,22 @@
+check_copyright_config_version: 1
+
+default_license: Apache-2.0
+
+# Directories/files to skip copyright checking
+ignore_list:
+  - docs/
+  - "**/*.md"
+  - "**/*.rst"
+  - "**/*.txt"
+  - "**/*.yaml"
+  - "**/*.yml"
+  - "**/*.json"
+  - "**/*.toml"
+  - "**/*.cfg"
+
+# Additional licenses allowed for example code
+allowlist_licenses:
+  - Unlicense
+  - CC0-1.0
+  - BSD-3-Clause
+  - MIT
