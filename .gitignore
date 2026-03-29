@@ -11,11 +11,13 @@ build/
 venv/
 env/
 
+# WorkBuddy
+.workbuddy/
+
 # Sphinx build output
-docs/en/_build/
-docs/zh_CN/_build/
-docs/en/sphinx-warning-log.txt
-docs/zh_CN/sphinx-warning-log.txt
+docs/build/
+docs/**/_build/
+docs/**/sphinx-warning-log.txt
 
 # OS
 .DS_Store
