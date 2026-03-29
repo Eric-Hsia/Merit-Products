@@ -1,0 +1,27 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020 - 2026, Merit Technology Co., Ltd.
+# This file is distributed under the same license as the Merit-Products package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Merit-Products \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-03-29 23:40+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../en/products/lsm6dso/index.rst:2
+#: edd8d501f032466b8d2664eae79144c5
+msgid "LSM6DSO-6DoF"
+msgstr ""
+
+#: ../en/products/lsm6dso/index.rst:4
+#: e5749145953f4293bef532b5a620228b
+msgid "6-Axis Inertial Measurement Unit Module"
+msgstr ""

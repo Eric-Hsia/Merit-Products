@@ -1,0 +1,65 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020 - 2026, Merit Technology Co., Ltd.
+# This file is distributed under the same license as the Merit-Products
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Merit-Products \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-03-29 17:31+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../en/index.rst:6
+msgid "Products"
+msgstr "产品"
+
+#: ../en/index.rst:13
+msgid "Resources"
+msgstr "资源"
+
+#: ../en/index.rst:2 104fe5f47839465684b8ff12bca2dcbd
+msgid "Merit-Products Documentation"
+msgstr "Merit-Products 文档"
+
+#: ../en/index.rst:4 97e1bad496dd49519a4e238edd58df2a
+msgid ""
+"Welcome to the **Merit-Products** documentation. This site provides "
+"hardware user guides and technical references for all Merit products."
+msgstr ""
+"欢迎使用 **Merit-Products** 文档。本站提供所有 Merit 产品的硬件用户指南和技术参考资料。"
+
+#: ../en/index.rst:21 fd18ed9621ce4a9cad223fb05894ad59
+msgid ""
+"For Chinese (Simplified) documentation, please visit the `中文版本 <https"
+"://merit-products.readthedocs.io/zh_CN/latest/>`_."
+msgstr ""
+"如需查看简体中文文档，请访问 `English version <https"
+"://merit-products.readthedocs.io/en/latest/>`_."
+
+#: ../en/index.rst:24 41f70f04767e4eef90ee16a8adcddd92
+msgid "Indices and tables"
+msgstr "索引和表格"
+
+#: ../en/index.rst:26 16e859f0bfee4480aaa16bc4c71457c0
+msgid ":ref:`genindex`"
+msgstr ""
+
+#: ../en/index.rst:27 2248b1907cd344aaaebcbfbc0fc88b99
+msgid ":ref:`modindex`"
+msgstr ""
+
+#: ../en/index.rst:28 897aef29f68040b78adf61956c1ab1db
+msgid ":ref:`search`"
+msgstr ""
+

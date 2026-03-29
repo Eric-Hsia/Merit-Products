@@ -27,8 +27,13 @@ extensions = [
 
 # -- Language settings -------------------------------------------------------
 language = 'en'
+
+# i18n / gettext configuration
+# Translation files are located in docs/source/locales/
 locale_dirs = ['../locales']
-gettext_compact = False
+gettext_compact = False  # Keep .po files separate for each source file
+gettext_uuid = True      # Add UUIDs to msgids for stable references
+gettext_location = True  # Add location comments to .po files
 
 # -- Source file settings ----------------------------------------------------
 source_suffix = {

@@ -15,23 +15,32 @@
 
 ```text
 Merit-Products/
-├── docs/                  # Sphinx documentation source
-│   ├── _static/           # Static assets (images per product)
-│   ├── en/                # English documentation
-│   │   ├── conf.py
-│   │   ├── index.rst
-│   │   ├── Makefile
-│   │   └── <product-name>/
-│   ├── zh_CN/             # Simplified Chinese documentation
-│   │   ├── conf.py
-│   │   ├── index.rst
-│   │   ├── Makefile
-│   │   └── <product-name>/
-│   ├── conf_common.py     # Shared Sphinx configuration
-│   └── requirements.txt   # Python documentation dependencies
-├── examples/              # Example firmware/software projects
+├── docs/                      # Sphinx documentation
+│   ├── _static/               # Static assets (images, CSS)
+│   ├── build/                 # Build output (HTML, not committed)
+│   ├── source/                # Documentation source files
+│   │   ├── en/                # English documentation
+│   │   │   ├── conf.py        # Sphinx configuration
+│   │   │   ├── index.rst      # Main index
+│   │   │   └── products/      # Product documentation
+│   │   │       ├── lsm6dso/   # LSM6DSO-6DoF module
+│   │   │       │   ├── intro.md
+│   │   │       │   └── specs.md
+│   │   │       └── imu10a/    # IMU10A module
+│   │   │           ├── intro.md
+│   │   │           └── specs.md
+│   │   └── zh_CN/             # Simplified Chinese documentation
+│   │       ├── conf.py
+│   │       ├── index.rst
+│   │       └── products/
+│   │           ├── lsm6dso/
+│   │           └── imu10a/
+│   ├── Makefile               # Build automation (Linux/macOS)
+│   ├── make.bat               # Build automation (Windows)
+│   └── requirements.txt       # Python dependencies
+├── examples/                  # Example firmware/software projects
 │   └── <product-name>/
-└── tools/                 # Utility scripts
+└── tools/                     # Utility scripts
     └── ci/
 ```
 
@@ -50,30 +59,29 @@ Merit-Products/
 pip install -r docs/requirements.txt
 ```
 
-### Build English Documentation
+### Build Documentation
 
 ```bash
-cd docs/en
+cd docs
+
+# Build both languages
 make html
+
+# Or build individually
+make html-en    # English only
+make html-zh    # Chinese only
 ```
 
-### Build Chinese Documentation
-
-```bash
-cd docs/zh_CN
-make html
-```
-
-The built HTML will be located in `docs/en/_build/html/` or `docs/zh_CN/_build/html/`.
+The built HTML will be located in `docs/build/html/en/` or `docs/build/html/zh_CN/`.
 
 ---
 
 ## Products Covered
 
-| Product Name       | Category          | Docs (EN)                   | Docs (中文)　　　　　　　　　　　|
-| --------------------| -------------------| -----------------------------| ----------------------------------|
-| merit-lsm6dso-6DoF | 6DoF Module       | [EN](docs/en/lsm6dso-6DoF/) | [中文](docs/zh_CN/lsm6dso-6DoF/) |
-| merit-IMU10A       | 10Axis IMU Module | [EN](docs/en/IMU10A/)       | [中文](docs/zh_CN/IMU10A/)　　　 |
+| Product Name       | Category          | Docs (EN)                                   | Docs (中文)　　　　　　　　　　　　　　　　　　|
+| --------------------| -------------------| ---------------------------------------------| ------------------------------------------------|
+| LSM6DSO-6DoF       | 6DoF IMU Module   | [EN](docs/source/en/products/lsm6dso/)      | [中文](docs/source/zh_CN/products/lsm6dso/)     |
+| IMU10A             | 10-Axis IMU Module| [EN](docs/source/en/products/imu10a/)       | [中文](docs/source/zh_CN/products/imu10a/)      |
 
 > Add your products to this table as you create their documentation.
 

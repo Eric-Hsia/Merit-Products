@@ -1,0 +1,397 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020 - 2026, Merit Technology Co., Ltd.
+# This file is distributed under the same license as the Merit-Products package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Merit-Products \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-03-29 23:40+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../en/products/lsm6dso/specs.md:1
+#: c83d6516315a4d2ca14f3650c693241d
+msgid "Specifications"
+msgstr ""
+
+#: ../en/products/lsm6dso/specs.md:3
+#: e263b6597dd34d6ba2695ff712c6830a
+msgid "Electrical Characteristics"
+msgstr ""
+
+#: ../en/products/lsm6dso/specs.md:0
+#: c66c5580eea4413fbc3aa4d007e54da9
+#: c4c4797d7f3345b38bd66d2cec09adcc
+#: 0406f793f9db4de187529c470a5a4586
+msgid "Parameter"
+msgstr ""
+
+#: ../en/products/lsm6dso/specs.md:0
+#: 9e9054bae91d460da0b52ae1b1f6fa8d
+#: 59845e38351b4bcf94a1bb6c8f2d79eb
+#: bcee545c72d84f249b616768d04e668f
+msgid "Value"
+msgstr ""
+
+#: ../en/products/lsm6dso/specs.md:0
+#: 20acece1606f46ec8a520febc8c5999a
+msgid "Unit"
+msgstr ""
+
+#: ../en/products/lsm6dso/specs.md:0
+#: 273aa4a12d9a49b7a23a383ad593c4e7
+msgid "Supply Voltage (VDD)"
+msgstr ""
+
+#: ../en/products/lsm6dso/specs.md:0
+#: a1221d5df15c4220b05b583835415f8e
+msgid "1.71 - 3.6"
+msgstr ""
+
+#: ../en/products/lsm6dso/specs.md:0
+#: ed9625891603463eb65eac9421d4ebdc
+#: 969618343ac84a958d80b4fdd8d78578
+msgid "V"
+msgstr ""
+
+#: ../en/products/lsm6dso/specs.md:0
+#: 136b96378226432ea67d2fc3f423fefb
+msgid "Supply Voltage (VDDIO)"
+msgstr ""
+
+#: ../en/products/lsm6dso/specs.md:0
+#: 539be6b534ee48669fdf2913fe27ecd2
+msgid "1.62 - 3.6"
+msgstr ""
+
+#: ../en/products/lsm6dso/specs.md:0
+#: 0e95a354168b4b8abbe66acb484610f9
+msgid "Operating Current (High Performance)"
+msgstr ""
+
+#: ../en/products/lsm6dso/specs.md:0
+#: 8eee756e68a44cf8852daa6612453b5a
+msgid "0.55"
+msgstr ""
+
+#: ../en/products/lsm6dso/specs.md:0
+#: 7e877de59738463898f9502c26f8641a
+msgid "mA"
+msgstr ""
+
+#: ../en/products/lsm6dso/specs.md:0
+#: 444758c7ede94fa9aa057179e4a66972
+msgid "Operating Current (Low Power)"
+msgstr ""
+
+#: ../en/products/lsm6dso/specs.md:0
+#: f59f890fb98540489a9be20997eefcc2
+#: 4eec32fed8924afab29e154c9f189aed
+msgid "4"
+msgstr ""
+
+#: ../en/products/lsm6dso/specs.md:0
+#: e11cf2bdfb2345659b71d2652bf3eb00
+msgid "µA"
+msgstr ""
+
+#: ../en/products/lsm6dso/specs.md:0
+#: 3b6781b2ac2942d998a4a48ac225c04b
+msgid "Temperature Range"
+msgstr ""
+
+#: ../en/products/lsm6dso/specs.md:0
+#: 12a03a8a89bb49af8610f850b38a28dd
+msgid "-40 to +85"
+msgstr ""
+
+#: ../en/products/lsm6dso/specs.md:0
+#: c0a1dbc7b1834789beedbe2dda6a8b1e
+msgid "°C"
+msgstr ""
+
+#: ../en/products/lsm6dso/specs.md:13
+#: 31dc085475994cb6a0f7d8ab87b3c39a
+msgid "Accelerometer Specifications"
+msgstr ""
+
+#: ../en/products/lsm6dso/specs.md:0
+#: 6e5a4989b2d0428fae4c265d0093d647
+#: 3fd07f8d19ca4845ae7509bb56ad18f0
+msgid "Full-Scale Range"
+msgstr ""
+
+#: ../en/products/lsm6dso/specs.md:0
+#: bb5354a4a4cd41738bb598e65be18bcc
+msgid "±2, ±4, ±8, ±16 g"
+msgstr ""
+
+#: ../en/products/lsm6dso/specs.md:0
+#: 26e7cb68b8ef406e94079b786cfc3f7e
+#: 8c93ab9e4cc64b6384abc995a5682de9
+msgid "Sensitivity"
+msgstr ""
+
+#: ../en/products/lsm6dso/specs.md:0
+#: 7b55f073d20c4b41bd0e89f12f15e947
+msgid "0.061, 0.122, 0.244, 0.488 mg/LSB"
+msgstr ""
+
+#: ../en/products/lsm6dso/specs.md:0
+#: b4ef737218ba4d4c8711eabe1929b419
+#: b6280541821347afaef95110434ae60b
+msgid "Output Data Rate"
+msgstr ""
+
+#: ../en/products/lsm6dso/specs.md:0
+#: 85b5d6c1887046cfba3e3b1d116795a2
+msgid "1.6 Hz - 6.66 kHz"
+msgstr ""
+
+#: ../en/products/lsm6dso/specs.md:0
+#: 61d6d4fbac0f41aeb0f57026ced11b91
+#: 46efce3302af43ef8e56dbc67a437f8c
+msgid "Noise Density"
+msgstr ""
+
+#: ../en/products/lsm6dso/specs.md:0
+#: 6ee7e734180c43c4be6abb80257d910b
+msgid "70 µg/√Hz"
+msgstr ""
+
+#: ../en/products/lsm6dso/specs.md:22
+#: 7bc94482f7cb41ada2d3933907b0dd51
+msgid "Gyroscope Specifications"
+msgstr ""
+
+#: ../en/products/lsm6dso/specs.md:0
+#: 78d5fafb117c43dbb6c511d16b0df18b
+msgid "±125, ±250, ±500, ±1000, ±2000 dps"
+msgstr ""
+
+#: ../en/products/lsm6dso/specs.md:0
+#: 4db4fe1a0588487eac89f00ccfd782fe
+msgid "4.375, 8.75, 17.50, 35.0, 70.0 mdps/LSB"
+msgstr ""
+
+#: ../en/products/lsm6dso/specs.md:0
+#: e1e489d5485c43ff8a39a111fa34051b
+msgid "12.5 Hz - 6.66 kHz"
+msgstr ""
+
+#: ../en/products/lsm6dso/specs.md:0
+#: ecb746bc5f8d44f7be49f6db9315d432
+msgid "4.0 mdps/√Hz"
+msgstr ""
+
+#: ../en/products/lsm6dso/specs.md:31
+#: 2e2c506d7e924a5693097415417a4bab
+msgid "Mechanical Dimensions"
+msgstr ""
+
+#: ../en/products/lsm6dso/specs.md:33
+#: 4aeb8c5d21f1442493622878b230f5fa
+msgid "**Package**: LGA-14"
+msgstr ""
+
+#: ../en/products/lsm6dso/specs.md:34
+#: 520d981222e6414daccb2754dff9ceef
+msgid "**Dimensions**: 2.5mm × 3.0mm × 0.83mm"
+msgstr ""
+
+#: ../en/products/lsm6dso/specs.md:35
+#: 74a23067af954ffa9ebc6410b8bd19fa
+msgid "**Weight**: ~10 mg"
+msgstr ""
+
+#: ../en/products/lsm6dso/specs.md:37
+#: 46c601ce5323408680e676b32e3e2d1c
+msgid "Pin Configuration"
+msgstr ""
+
+#: ../en/products/lsm6dso/specs.md:0
+#: a7993d0f5f5741a4a6b5ec47ac06d6fc
+msgid "Pin"
+msgstr ""
+
+#: ../en/products/lsm6dso/specs.md:0
+#: 368216498e8e49568a7c13ab12834acc
+msgid "Name"
+msgstr ""
+
+#: ../en/products/lsm6dso/specs.md:0
+#: 5a037459a10b41dc84c185cdd2a3ef52
+msgid "Function"
+msgstr ""
+
+#: ../en/products/lsm6dso/specs.md:0
+#: 18f624433ec449a393974a14dd25c3ab
+msgid "1"
+msgstr ""
+
+#: ../en/products/lsm6dso/specs.md:0
+#: 1bf14b84b0854290a19c85fb5078801d
+msgid "VDDIO"
+msgstr ""
+
+#: ../en/products/lsm6dso/specs.md:0
+#: cf9d9210ff794b16b1968c5bf7ee6807
+msgid "Digital I/O supply"
+msgstr ""
+
+#: ../en/products/lsm6dso/specs.md:0
+#: 44ca9512399b4f2cb28144080694f7db
+msgid "2"
+msgstr ""
+
+#: ../en/products/lsm6dso/specs.md:0
+#: 0eef9339db044b6fbb33cce4908695f5
+msgid "SCL"
+msgstr ""
+
+#: ../en/products/lsm6dso/specs.md:0
+#: be82bbf1b3db4eb48c674e7d244c0a60
+msgid "I²C clock / SPI SCK"
+msgstr ""
+
+#: ../en/products/lsm6dso/specs.md:0
+#: 07ad08f284e54305bbe64e5a424b178c
+msgid "3"
+msgstr ""
+
+#: ../en/products/lsm6dso/specs.md:0
+#: ada7ccc443804b768c843be158f101e3
+msgid "SDA"
+msgstr ""
+
+#: ../en/products/lsm6dso/specs.md:0
+#: 75551f817c6a43aead7f64c135e60b78
+msgid "I²C data / SPI SDI"
+msgstr ""
+
+#: ../en/products/lsm6dso/specs.md:0
+#: f26b05c1a76447eea805cb32bf3fb98c
+msgid "SDO"
+msgstr ""
+
+#: ../en/products/lsm6dso/specs.md:0
+#: 557e0352af004a7baf55f18c56969f7f
+msgid "SPI data out / I²C address select"
+msgstr ""
+
+#: ../en/products/lsm6dso/specs.md:0
+#: 68ffc7db5e2f49be8d7161bdb471b495
+msgid "5"
+msgstr ""
+
+#: ../en/products/lsm6dso/specs.md:0
+#: f8d89fa86df24c7bbc018a3008f8abd2
+msgid "CS"
+msgstr ""
+
+#: ../en/products/lsm6dso/specs.md:0
+#: bcdea8dd4bac42d2a22e029afc739fc8
+msgid "SPI chip select"
+msgstr ""
+
+#: ../en/products/lsm6dso/specs.md:0
+#: 8c9fc61655be478db6d7478840b0b0a6
+msgid "6"
+msgstr ""
+
+#: ../en/products/lsm6dso/specs.md:0
+#: 409060568ec54e8fa3c32f54c26bfbca
+msgid "INT1"
+msgstr ""
+
+#: ../en/products/lsm6dso/specs.md:0
+#: d408b09aa363490ea40620225e3f7d60
+msgid "Interrupt 1"
+msgstr ""
+
+#: ../en/products/lsm6dso/specs.md:0
+#: f11cef935584422192378d6da54cbab5
+msgid "7"
+msgstr ""
+
+#: ../en/products/lsm6dso/specs.md:0
+#: d26a84d540e44e0b96ace495bc43f124
+msgid "INT2"
+msgstr ""
+
+#: ../en/products/lsm6dso/specs.md:0
+#: 77906797bddc4cc5babc37b05ff06efc
+msgid "Interrupt 2"
+msgstr ""
+
+#: ../en/products/lsm6dso/specs.md:0
+#: b3be32084f9841e0a851c3696e8a590d
+msgid "8"
+msgstr ""
+
+#: ../en/products/lsm6dso/specs.md:0
+#: 1faf8f8e3ae14e9d8b37c92dd94ed8d6
+msgid "GND"
+msgstr ""
+
+#: ../en/products/lsm6dso/specs.md:0
+#: ae2b9fbdd30b4adf84ad331bbaa6811b
+msgid "Ground"
+msgstr ""
+
+#: ../en/products/lsm6dso/specs.md:0
+#: b768a8ab6048494d9dd870cd6cf5c949
+msgid "9"
+msgstr ""
+
+#: ../en/products/lsm6dso/specs.md:0
+#: 955309a828dc4332931ed64578772e18
+msgid "VDD"
+msgstr ""
+
+#: ../en/products/lsm6dso/specs.md:0
+#: 2c5ba49b69a9482981b63c6fcb6e4fed
+msgid "Power supply"
+msgstr ""
+
+#: ../en/products/lsm6dso/specs.md:51
+#: d7eed887a2c44c09b877991cc41923c4
+msgid "Communication Interface"
+msgstr ""
+
+#: ../en/products/lsm6dso/specs.md:53
+#: b562e83f6b074515958bac6f281383a9
+msgid "I²C Mode"
+msgstr ""
+
+#: ../en/products/lsm6dso/specs.md:54
+#: 39a4b71687b54404affc04402ba91079
+msgid "**Address**: 0x6A (SDO=GND) or 0x6B (SDO=VDDIO)"
+msgstr ""
+
+#: ../en/products/lsm6dso/specs.md:55
+#: bf0b0aa0f9564033a68b1f6274b95ae7
+msgid "**Speed**: Standard (100 kHz), Fast (400 kHz), Fast+ (1 MHz)"
+msgstr ""
+
+#: ../en/products/lsm6dso/specs.md:57
+#: 74bb1ed5b4e34b9a91e0c960d4833c17
+msgid "SPI Mode"
+msgstr ""
+
+#: ../en/products/lsm6dso/specs.md:58
+#: eacf1947477845f7ab030125e0e773c0
+msgid "**Mode**: 0 (CPOL=0, CPHA=0) or 3 (CPOL=1, CPHA=1)"
+msgstr ""
+
+#: ../en/products/lsm6dso/specs.md:59
+#: c2dcad5e330d4b1e85ff76ee64979df1
+msgid "**Speed**: Up to 10 MHz"
+msgstr ""

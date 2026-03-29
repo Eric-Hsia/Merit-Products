@@ -1,0 +1,132 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020 - 2026, Merit Technology Co., Ltd.
+# This file is distributed under the same license as the Merit-Products package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Merit-Products \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-03-29 23:40+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../en/products/lsm6dso/intro.md:1
+#: d61b5562e9cd4d829089fb5ea0c82bb7
+msgid "Introduction"
+msgstr ""
+
+#: ../en/products/lsm6dso/intro.md:3
+#: 1e073ae75057406b9ebb0f06c8d1f1d4
+msgid "Overview"
+msgstr ""
+
+#: ../en/products/lsm6dso/intro.md:5
+#: f3ecc038d7de410f98aaaaf0e56e4862
+msgid "The **LSM6DSO-6DoF** is a high-performance 6-axis inertial measurement unit (IMU) module, combining a 3-axis accelerometer and a 3-axis gyroscope in a compact package."
+msgstr ""
+
+#: ../en/products/lsm6dso/intro.md:7
+#: 7f86d566cce44de6a1143a24155c6c66
+msgid "Features"
+msgstr ""
+
+#: ../en/products/lsm6dso/intro.md:9
+#: 6139e4110fab4e0fac08970f786c3109
+msgid "**3-axis accelerometer**: ±2/±4/±8/±16 g full-scale range"
+msgstr ""
+
+#: ../en/products/lsm6dso/intro.md:10
+#: a677d00aa01144039027e7d0f1035fc8
+msgid "**3-axis gyroscope**: ±125/±250/±500/±1000/±2000 dps full-scale range"
+msgstr ""
+
+#: ../en/products/lsm6dso/intro.md:11
+#: 4b822112cd9e4b2ba8e116ec80db6003
+msgid "**Digital output**: I²C/SPI interface"
+msgstr ""
+
+#: ../en/products/lsm6dso/intro.md:12
+#: 08037b836f1d403db5178543dc35bcd6
+msgid "**Low power consumption**: Ideal for battery-powered applications"
+msgstr ""
+
+#: ../en/products/lsm6dso/intro.md:13
+#: 986ffae6547b48afa263ed888dcd787d
+msgid "**Compact size**: 2.5mm × 3.0mm × 0.83mm"
+msgstr ""
+
+#: ../en/products/lsm6dso/intro.md:15
+#: d1a6b36534b24d22a58f982ec5e72559
+msgid "Applications"
+msgstr ""
+
+#: ../en/products/lsm6dso/intro.md:17
+#: 964e67aaa6f445528d8df088bf412816
+msgid "Wearable devices"
+msgstr ""
+
+#: ../en/products/lsm6dso/intro.md:18
+#: a06fc2b5c53e4f2288f29ad7f570b70e
+msgid "Motion tracking"
+msgstr ""
+
+#: ../en/products/lsm6dso/intro.md:19
+#: 36ab7a3a7c0a410683149ce70bfc84ff
+msgid "Gesture recognition"
+msgstr ""
+
+#: ../en/products/lsm6dso/intro.md:20
+#: e55c7e64210b4a9bb58c3e1e0b0016c4
+msgid "Gaming controllers"
+msgstr ""
+
+#: ../en/products/lsm6dso/intro.md:21
+#: bdbf8d95dc7940cfb84e2a883c4a5d8d
+msgid "Robotics"
+msgstr ""
+
+#: ../en/products/lsm6dso/intro.md:22
+#: 6cc8e44082de4557ad00461e1b794505
+msgid "IoT sensors"
+msgstr ""
+
+#: ../en/products/lsm6dso/intro.md:24
+#: 1ec088cfdc1246f6b5a105961d7afd83
+msgid "Getting Started"
+msgstr ""
+
+#: ../en/products/lsm6dso/intro.md:26
+#: f53091a924ad4d5b834bce614f9cdfcd
+msgid "To get started with the LSM6DSO-6DoF module:"
+msgstr ""
+
+#: ../en/products/lsm6dso/intro.md:28
+#: 96c02647ba974849a318be1049c10abd
+msgid "Connect the module to your microcontroller via I²C or SPI"
+msgstr ""
+
+#: ../en/products/lsm6dso/intro.md:29
+#: 233b6ca362d045f8b51f900014f6a866
+msgid "Install the provided driver library"
+msgstr ""
+
+#: ../en/products/lsm6dso/intro.md:30
+#: 16c7896db7ba4a8199975a773a6df42d
+msgid "Initialize the sensor and start reading data"
+msgstr ""
+
+#: ../en/products/lsm6dso/intro.md:31
+#: da4aba96539f4bc98b00d9148f708c7b
+msgid "Check the output from serial port"
+msgstr ""
+
+#: ../en/products/lsm6dso/intro.md:33
+#: b181cd795a034b408af6a07cb133e1fb
+msgid "Refer to the [Specifications](specs.md) for detailed technical parameters."
+msgstr ""

@@ -1,0 +1,426 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020 - 2026, Merit Technology Co., Ltd.
+# This file is distributed under the same license as the Merit-Products
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Merit-Products \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-03-29 17:31+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../en/products/imu10a/specs.md:1 630e1fb938714778aa607cf5dc51ed84
+msgid "Specifications"
+msgstr ""
+
+#: ../en/products/imu10a/specs.md:3 2c52227280784629b531349427f1cc38
+msgid "General Specifications"
+msgstr ""
+
+#: ../en/products/imu10a/specs.md 02c9c4ee6b754e90a50a51d5cac6364b
+#: 29a038e0390440c88a31d44b52735e09 41cde3dc5f1b48b2807108c5eab896be
+#: cfba3f7451fa4f3b8da2bc6c024ffd2f e9afbe521fb941119eb575487a0bdcb8
+msgid "Parameter"
+msgstr ""
+
+#: ../en/products/imu10a/specs.md 3e6c63c7d10446e1b0ffc89b24d8cdf6
+msgid "Value"
+msgstr ""
+
+#: ../en/products/imu10a/specs.md 5d3ec6dda506457e82666a6cdc4545b9
+msgid "Supply Voltage"
+msgstr ""
+
+#: ../en/products/imu10a/specs.md 0451aeb27b9444a0a9f0f21a4d606a3b
+msgid "3.3V ± 5%"
+msgstr ""
+
+#: ../en/products/imu10a/specs.md 7b5366a88ecd4e56803b62cb34eab762
+msgid "Operating Current"
+msgstr ""
+
+#: ../en/products/imu10a/specs.md 09b13427eace4c7683351177875b74ac
+msgid "5 mA (typical)"
+msgstr ""
+
+#: ../en/products/imu10a/specs.md 6ec281df6107435e9a342f70f79563ac
+msgid "Sleep Current"
+msgstr ""
+
+#: ../en/products/imu10a/specs.md b31f1f7392e3412182141904da8d4dfa
+msgid "10 µA"
+msgstr ""
+
+#: ../en/products/imu10a/specs.md 2194ac52523f4147bbba1734ee63394c
+msgid "Operating Temperature"
+msgstr ""
+
+#: ../en/products/imu10a/specs.md 19807c4588e54dc4bb5458ce9686667b
+msgid "-40°C to +85°C"
+msgstr ""
+
+#: ../en/products/imu10a/specs.md 13856531a69c4d1794bedd0100a8443b
+msgid "Storage Temperature"
+msgstr ""
+
+#: ../en/products/imu10a/specs.md 1e9bfcf30b7749d0a7a339162631745b
+msgid "-40°C to +125°C"
+msgstr ""
+
+#: ../en/products/imu10a/specs.md 2f5a9bdc3205484ebf3df819b9cfb64c
+msgid "Interface"
+msgstr ""
+
+#: ../en/products/imu10a/specs.md 12f72a84cc8a49cb9a2bef604b07107b
+msgid "I²C (400 kHz) / SPI (8 MHz)"
+msgstr ""
+
+#: ../en/products/imu10a/specs.md:14 be6b3eb325aa4f7397cf1a414d361e6d
+msgid "Accelerometer"
+msgstr ""
+
+#: ../en/products/imu10a/specs.md 299eedf17e40462dbdacef7370a6473f
+#: aa561656e1054f439f7687404a41fbd3 bb48ae7368154f8a8c7872be7f0b1a30
+#: f098a6d409d04c5b8a974a18f3c5f967
+msgid "Specification"
+msgstr ""
+
+#: ../en/products/imu10a/specs.md 417407d984d445cb829476a0e7784203
+#: d0579cbf5fa54493bee49b0d69bda289 dab3a835446f47f38646a3bf4f456298
+msgid "Axes"
+msgstr ""
+
+#: ../en/products/imu10a/specs.md 44d44dd300d2434489c69a8706aff146
+#: 565a052df2b9443b835c650742f55204
+msgid "3 (X, Y, Z)"
+msgstr ""
+
+#: ../en/products/imu10a/specs.md 3fffb51621c84234ab1b242a2dcfe4a4
+#: c30e17d643a64c2ca5fea4b218248ed1 f1207ed282c24d15830e5fd957dd63a5
+msgid "Full-Scale Range"
+msgstr ""
+
+#: ../en/products/imu10a/specs.md 3e63f36e79984e8fa49329e5daf9df16
+msgid "±2g, ±4g, ±8g, ±16g"
+msgstr ""
+
+#: ../en/products/imu10a/specs.md 07c42a35171c4a5bb3ed978087331f9b
+#: 89fbc7e352e545d090da4d084ff23aad c02b9bcff5c04f90b288b44cef45e704
+msgid "Resolution"
+msgstr ""
+
+#: ../en/products/imu10a/specs.md 1a272d4edddf409ab5e9c5f11b827891
+#: 2be19d8327c840989451bb9197487e03 f80afde2195849689add825528b25fda
+msgid "16-bit"
+msgstr ""
+
+#: ../en/products/imu10a/specs.md 06e01bdb3e9841d99ae0b050550a5fd7
+#: d3f2da4693764440aacf2915e6a80b81 e13fc3a68ad746868d6032d975f5b4f7
+msgid "Sensitivity"
+msgstr ""
+
+#: ../en/products/imu10a/specs.md 67096604dcde46c78da4f0fe82d24ca1
+msgid "0.98 mg/LSB (±2g)"
+msgstr ""
+
+#: ../en/products/imu10a/specs.md 65042f7c26ee4a67b7d0d20df0b180f0
+#: 729ee79efd1347898d52d63d32781fa5 7e6928c94a484c75a7898fc18b250f63
+#: 9e59c87fec6e48a5848cb25f6d15e7dc
+msgid "Output Data Rate"
+msgstr ""
+
+#: ../en/products/imu10a/specs.md c3056e99ac6548d1bd7237957030dd8f
+#: f417758d8c954b1881fb6513c00d9568
+msgid "12.5 Hz - 4 kHz"
+msgstr ""
+
+#: ../en/products/imu10a/specs.md 2cf82b81ca0349f7af61cb7d47c85e07
+#: 684451eb4a3d481396b50db213106dda
+msgid "Noise Density"
+msgstr ""
+
+#: ../en/products/imu10a/specs.md d2e1396b7ad6495da6ceba87ef283237
+msgid "180 µg/√Hz"
+msgstr ""
+
+#: ../en/products/imu10a/specs.md:25 48ef705fe72b4ddfbc2ca3dcf2e10a92
+msgid "Gyroscope"
+msgstr ""
+
+#: ../en/products/imu10a/specs.md 2740632daa4e442ab91a2ab919781b8e
+msgid "3 (Roll, Pitch, Yaw)"
+msgstr ""
+
+#: ../en/products/imu10a/specs.md ee9c570cb25e496795de344784ef119b
+msgid "±250, ±500, ±1000, ±2000 dps"
+msgstr ""
+
+#: ../en/products/imu10a/specs.md ce4e680f0fcb4cdca959ed739e340194
+msgid "8.75 mdps/LSB (±250 dps)"
+msgstr ""
+
+#: ../en/products/imu10a/specs.md 8e9d54f65198470c96a888df75d163df
+msgid "0.007 dps/√Hz"
+msgstr ""
+
+#: ../en/products/imu10a/specs.md:36 0ab17ad7bd574b6986156e09e7643a64
+msgid "Magnetometer"
+msgstr ""
+
+#: ../en/products/imu10a/specs.md 711e927dbc654a419c2153fe0a66d054
+msgid "±4800 µT"
+msgstr ""
+
+#: ../en/products/imu10a/specs.md 2ed377c7218f42bcb21a251a7757ef90
+msgid "0.15 µT/LSB"
+msgstr ""
+
+#: ../en/products/imu10a/specs.md b70a8cf56dd54fc1ab7bbe7a43dc5ff1
+msgid "10 Hz - 100 Hz"
+msgstr ""
+
+#: ../en/products/imu10a/specs.md:46 c06e276345d2419ca338c0827531e996
+msgid "Barometer"
+msgstr ""
+
+#: ../en/products/imu10a/specs.md 52bed884c93e46af99583c8caa8cbb0e
+msgid "Pressure Range"
+msgstr ""
+
+#: ../en/products/imu10a/specs.md 79f80e1bff2f407f91e759ec4960134a
+msgid "300 - 1100 hPa"
+msgstr ""
+
+#: ../en/products/imu10a/specs.md 9ca2f4ab37554893a6deca93341f63a4
+msgid "Absolute Accuracy"
+msgstr ""
+
+#: ../en/products/imu10a/specs.md 3b173c10e4c24d3a80bc073717dcd45c
+msgid "±1 hPa"
+msgstr ""
+
+#: ../en/products/imu10a/specs.md 5abb30242f5b41608504ca7511070350
+msgid "Relative Accuracy"
+msgstr ""
+
+#: ../en/products/imu10a/specs.md 45aeea3591f54519a9cdadc3a22ed5a2
+msgid "±0.12 hPa"
+msgstr ""
+
+#: ../en/products/imu10a/specs.md 50a959fd675d43eb8576a2c3444e726c
+msgid "Temperature Coefficient"
+msgstr ""
+
+#: ../en/products/imu10a/specs.md ca2619adf6aa473cb062d735503c126c
+msgid "±0.5 Pa/K"
+msgstr ""
+
+#: ../en/products/imu10a/specs.md e827835637d840c7a35ff0e8e4c17c36
+msgid "Up to 75 Hz"
+msgstr ""
+
+#: ../en/products/imu10a/specs.md:56 d849bca197764100977b5e9dab32cef7
+msgid "Physical Dimensions"
+msgstr ""
+
+#: ../en/products/imu10a/specs.md:58 2492070008b84c29838f7f7840cd935d
+msgid "**Package**: LGA-24"
+msgstr ""
+
+#: ../en/products/imu10a/specs.md:59 ff1d6e5a119e4e49acdef25c60cf6f01
+msgid "**Size**: 5.0mm × 5.0mm × 1.1mm"
+msgstr ""
+
+#: ../en/products/imu10a/specs.md:60 713594aee599459b89d2771f4396418d
+msgid "**Weight**: ~50 mg"
+msgstr ""
+
+#: ../en/products/imu10a/specs.md:62 242be7bc5f1149fdb7486d81b990894e
+msgid "Pinout"
+msgstr ""
+
+#: ../en/products/imu10a/specs.md c466a52e8719446ca561173718273cc9
+msgid "Pin"
+msgstr ""
+
+#: ../en/products/imu10a/specs.md 9d55e2b25a0f4649a54f526212cbd711
+msgid "Name"
+msgstr ""
+
+#: ../en/products/imu10a/specs.md b721b6518d1247d5a346d7f046eef9e2
+msgid "Description"
+msgstr ""
+
+#: ../en/products/imu10a/specs.md 6e11a94c003e4fc996da201d9ec14342
+msgid "1"
+msgstr ""
+
+#: ../en/products/imu10a/specs.md ffc1c4d73c574a8db75060dd1513886f
+msgid "VCC"
+msgstr ""
+
+#: ../en/products/imu10a/specs.md c9fecc01872042278e76787dfe0e6f10
+msgid "3.3V Power supply"
+msgstr ""
+
+#: ../en/products/imu10a/specs.md 31ab412092984f3fa39b13a8a586a36e
+msgid "2"
+msgstr ""
+
+#: ../en/products/imu10a/specs.md bf46cca7b8614423aaca3ea161297035
+msgid "GND"
+msgstr ""
+
+#: ../en/products/imu10a/specs.md 3719ef9b5e45469c9b68be4425a25f9b
+msgid "Ground"
+msgstr ""
+
+#: ../en/products/imu10a/specs.md 792dae60a13c4532b1b127f63f00ba5e
+msgid "3"
+msgstr ""
+
+#: ../en/products/imu10a/specs.md e38387cf6da34e858ab5dee2971884c5
+msgid "SCL/SCK"
+msgstr ""
+
+#: ../en/products/imu10a/specs.md f96d9a6e89934bf4b4224dbf471dd2b1
+msgid "I²C clock / SPI clock"
+msgstr ""
+
+#: ../en/products/imu10a/specs.md e036c6e94d9141f3b6cd95651b824d35
+msgid "4"
+msgstr ""
+
+#: ../en/products/imu10a/specs.md 9e50d6e25f3649d28cd1133adfbc3f62
+msgid "SDA/MOSI"
+msgstr ""
+
+#: ../en/products/imu10a/specs.md 124fdc8d587242bab9f244a3da4738e0
+msgid "I²C data / SPI MOSI"
+msgstr ""
+
+#: ../en/products/imu10a/specs.md 54326d53eb634a98b028e7f163f0c770
+msgid "5"
+msgstr ""
+
+#: ../en/products/imu10a/specs.md fea8337157134aab9815927a309cb919
+msgid "MISO"
+msgstr ""
+
+#: ../en/products/imu10a/specs.md 10b46639b3b64c83b6b901aa988fd657
+msgid "SPI MISO (I²C: NC)"
+msgstr ""
+
+#: ../en/products/imu10a/specs.md de90b5772e334ec3b2ebf091ece0aafa
+msgid "6"
+msgstr ""
+
+#: ../en/products/imu10a/specs.md 0674810118bc4b56ace4f99a28191ae1
+msgid "CS"
+msgstr ""
+
+#: ../en/products/imu10a/specs.md dcfc5389e7ff4db081aeb32006b63bbc
+msgid "Chip select (I²C: NC)"
+msgstr ""
+
+#: ../en/products/imu10a/specs.md bebd28cf07b94579b170e96a1b2f3815
+msgid "7"
+msgstr ""
+
+#: ../en/products/imu10a/specs.md 9d215078f1014ce0bbb82abbb93ca7d7
+msgid "INT1"
+msgstr ""
+
+#: ../en/products/imu10a/specs.md b1d3e41fce894e6e9a800ee0c76bad88
+msgid "Interrupt pin 1"
+msgstr ""
+
+#: ../en/products/imu10a/specs.md 94d6ddc64f2c46c9b803347241029d9c
+msgid "8"
+msgstr ""
+
+#: ../en/products/imu10a/specs.md 02c9fbdaf1b1442a8328b53949e6e43d
+msgid "INT2"
+msgstr ""
+
+#: ../en/products/imu10a/specs.md a2387cbc0eba4936a5f32922b4cc2882
+msgid "Interrupt pin 2"
+msgstr ""
+
+#: ../en/products/imu10a/specs.md:75 4f14af10df60421abb7dfbf59068b823
+msgid "Communication Protocol"
+msgstr ""
+
+#: ../en/products/imu10a/specs.md:77 271c9784e1dc43d18a89d0c35a19fbb0
+msgid "I²C Interface"
+msgstr ""
+
+#: ../en/products/imu10a/specs.md:78 6fec47657b8645118c6e330fa3f1274d
+msgid "**Address**: 0x68 (default)"
+msgstr ""
+
+#: ../en/products/imu10a/specs.md:79 649ee669270d4fe8b292fd412cb89862
+msgid "**Clock Speed**: Up to 400 kHz (Fast mode)"
+msgstr ""
+
+#: ../en/products/imu10a/specs.md:80 36d2a03e1f1a4ef6b572b3dccb79d107
+msgid "**Data Format**: Little-endian"
+msgstr ""
+
+#: ../en/products/imu10a/specs.md:82 2ec528c865ea40a79afbe1427acc38fd
+msgid "SPI Interface"
+msgstr ""
+
+#: ../en/products/imu10a/specs.md:83 39aaa96c64f643a780012afd99d4006e
+msgid "**Mode**: CPOL=0, CPHA=0 (Mode 0)"
+msgstr ""
+
+#: ../en/products/imu10a/specs.md:84 4e576367e0d34a92b35b665e8bf007c1
+msgid "**Clock Speed**: Up to 8 MHz"
+msgstr ""
+
+#: ../en/products/imu10a/specs.md:85 3be5b51d1efa4818a9c6a67bed82c030
+msgid "**Bit Order**: MSB first"
+msgstr ""
+
+#: ../en/products/imu10a/specs.md:87 8fc38f138aed4c69b3a097eb379e51bf
+msgid "Calibration"
+msgstr ""
+
+#: ../en/products/imu10a/specs.md:89 80365911a387409a81557a426a6ac4cb
+msgid "The IMU10A requires calibration for optimal performance:"
+msgstr ""
+
+#: ../en/products/imu10a/specs.md:91 52cde36f439b4e34b42e1b1565599320
+msgid "**Accelerometer**: 6-position calibration"
+msgstr ""
+
+#: ../en/products/imu10a/specs.md:92 fc39ad4f0dbe43dda2d0f31e2dbd437a
+msgid "**Gyroscope**: Static bias calibration"
+msgstr ""
+
+#: ../en/products/imu10a/specs.md:93 524cc5f8fcb24ea48bfb162f07f7b449
+msgid "**Magnetometer**: Hard/soft iron compensation"
+msgstr ""
+
+#: ../en/products/imu10a/specs.md:94 ee1f7f7112f14bb0ad4bc8e5fc4390fc
+msgid "**Barometer**: Sea-level reference setting"
+msgstr ""
+
+#: ../en/products/imu10a/specs.md:96 5ad2b20b7a604bbe9226ecd7789bdb29
+msgid ""
+"Refer to the calibration guide in the software documentation for detailed"
+" procedures."
+msgstr ""
+

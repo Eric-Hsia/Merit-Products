@@ -29,6 +29,7 @@ extensions = [
 language = 'zh_CN'
 locale_dirs = ['../locales']
 gettext_compact = False
+gettext_uuid = True
 
 # -- Source file settings ----------------------------------------------------
 source_suffix = {

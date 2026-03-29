@@ -1,0 +1,62 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020 - 2026, Merit Technology Co., Ltd.
+# This file is distributed under the same license as the Merit-Products package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Merit-Products \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-03-29 23:40+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../en/index.rst:6
+#: 
+msgid "Products"
+msgstr ""
+
+#: ../en/index.rst:13
+#: 
+msgid "Resources"
+msgstr ""
+
+#: ../en/index.rst:2
+#: 1a83e552fb57495397c7daf3b447e898
+msgid "Merit-Products Documentation"
+msgstr ""
+
+#: ../en/index.rst:4
+#: 125bdabd7b784ee6b18fb36938c59a28
+msgid "Welcome to the **Merit-Products** documentation. This site provides hardware user guides and technical references for all Merit products."
+msgstr ""
+
+#: ../en/index.rst:21
+#: 865c4c29faf5489d8c40aef1ee90d2af
+msgid "For Chinese (Simplified) documentation, please visit the `中文版本 <https://merit-products.readthedocs.io/zh_CN/latest/>`_."
+msgstr ""
+
+#: ../en/index.rst:24
+#: b47f0273a93a4bff8685924236d5df75
+msgid "Indices and tables"
+msgstr ""
+
+#: ../en/index.rst:26
+#: 0d7465f7c5a5499b94c0a4e1f9711379
+msgid ":ref:`genindex`"
+msgstr ""
+
+#: ../en/index.rst:27
+#: a7a23808749748e88711b48728160199
+msgid ":ref:`modindex`"
+msgstr ""
+
+#: ../en/index.rst:28
+#: 747946ac823a49638f0bcdd33dda0c11
+msgid ":ref:`search`"
+msgstr ""

@@ -1,0 +1,97 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020 - 2026, Merit Technology Co., Ltd.
+# This file is distributed under the same license as the Merit-Products package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Merit-Products \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-03-29 23:40+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../en/resources.rst:2
+#: 93903bd014a04002b8544032bb5b8a09
+msgid "Resources"
+msgstr ""
+
+#: ../en/resources.rst:5
+#: 0683f71a8ca74af7b62829d1c597943c
+msgid "Documentation"
+msgstr ""
+
+#: ../en/resources.rst:7
+#: 1de8981d9de547daa85987d8a447b422
+msgid "`GitHub Repository <https://github.com/Eric-Hsia/Merit-Products>`_"
+msgstr ""
+
+#: ../en/resources.rst:8
+#: cd534dd027f045c7a806faab5335ec38
+msgid "`Issue Tracker <https://github.com/Eric-Hsia/Merit-Products/issues>`_"
+msgstr ""
+
+#: ../en/resources.rst:9
+#: 66349d715f9641449cdd99969211d5f8
+msgid "`Contributing Guidelines <https://github.com/Eric-Hsia/Merit-Products/blob/main/CONTRIBUTING.md>`_"
+msgstr ""
+
+#: ../en/resources.rst:12
+#: 292c3fb7d0874cd480ce1f7e1bd5d3e8
+msgid "Software & Tools"
+msgstr ""
+
+#: ../en/resources.rst:14
+#: 6d1f3046864a410aa007a50dc3dc5ed0
+msgid "`Example Code <https://github.com/Eric-Hsia/Merit-Products/tree/main/examples>`_"
+msgstr ""
+
+#: ../en/resources.rst:15
+#: e62377e8d1834f179393343a5d9ffcbb
+msgid "Driver libraries (available in the examples directory)"
+msgstr ""
+
+#: ../en/resources.rst:18
+#: 6a5a3e3bf1734f8193072d41c8ce2076
+msgid "Support"
+msgstr ""
+
+#: ../en/resources.rst:20
+#: 112fc60d60064e019d7fe8cd5dc4f1f7
+msgid "For technical support or questions:"
+msgstr ""
+
+#: ../en/resources.rst:22
+#: f537551c737643f0b412b4ea6a8eb3a4
+msgid "Check the documentation for your specific product"
+msgstr ""
+
+#: ../en/resources.rst:23
+#: e973389c1c7b477b8ee6dfda8e1f2e90
+msgid "Search existing issues on GitHub"
+msgstr ""
+
+#: ../en/resources.rst:24
+#: 2fdbaab2347d4ca7b7ac0fad8228f05c
+msgid "Create a new issue if your question hasn't been addressed"
+msgstr ""
+
+#: ../en/resources.rst:27
+#: 395622f8717d407994c54e64c6fe32c7
+msgid "License"
+msgstr ""
+
+#: ../en/resources.rst:29
+#: efc082339c3b4ff08e6dbb3acee774c9
+msgid "Source code: `Apache License 2.0 <https://github.com/Eric-Hsia/Merit-Products/blob/main/LICENSE-APACHE>`_"
+msgstr ""
+
+#: ../en/resources.rst:30
+#: 73c768fda7a34e4d964bd4dd92c3eaf9
+msgid "Documentation: `CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0/>`_"
+msgstr ""

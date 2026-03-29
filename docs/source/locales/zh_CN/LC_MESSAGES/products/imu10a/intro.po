@@ -1,0 +1,140 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020 - 2026, Merit Technology Co., Ltd.
+# This file is distributed under the same license as the Merit-Products
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Merit-Products \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-03-29 17:31+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../en/products/imu10a/intro.md:1 133c6eb3e66e4de597c00bdc6604480e
+msgid "Introduction"
+msgstr ""
+
+#: ../en/products/imu10a/intro.md:3 f45a432778c440cd9848356bd9669d92
+msgid "Overview"
+msgstr ""
+
+#: ../en/products/imu10a/intro.md:5 4159fb401f1b4ac1abea4a6c71204507
+msgid ""
+"The **IMU10A** is a comprehensive 10-axis inertial measurement unit, "
+"integrating accelerometer, gyroscope, magnetometer, and barometer in a "
+"single module. This all-in-one solution is perfect for advanced motion "
+"sensing and navigation applications."
+msgstr ""
+
+#: ../en/products/imu10a/intro.md:7 b4c0638033794750a0713e223df76d11
+msgid "Features"
+msgstr ""
+
+#: ../en/products/imu10a/intro.md:9 70cfea34812543e09be97d527655a389
+msgid "Accelerometer"
+msgstr ""
+
+#: ../en/products/imu10a/intro.md:10 9c65713081ec469db3d6006b2914f06a
+msgid "3-axis measurement"
+msgstr ""
+
+#: ../en/products/imu10a/intro.md:11 3d6d199dc40c460d9683ac242299364f
+msgid "±2/±4/±8/±16 g full-scale range"
+msgstr ""
+
+#: ../en/products/imu10a/intro.md:12 ff189722389a4c7290de36f78e5c71bc
+msgid "Ultra-low noise performance"
+msgstr ""
+
+#: ../en/products/imu10a/intro.md:14 279f6ad8be6a4dc5af84f6858d9409f5
+msgid "Gyroscope"
+msgstr ""
+
+#: ../en/products/imu10a/intro.md:15 a2945fe3d7ca4b8ebd90c38d9ad89241
+msgid "3-axis angular rate measurement"
+msgstr ""
+
+#: ../en/products/imu10a/intro.md:16 524f19359c6a497191afe657d0b8fd16
+msgid "±250/±500/±1000/±2000 dps full-scale range"
+msgstr ""
+
+#: ../en/products/imu10a/intro.md:17 24c8df4697b14fc5b08c833997112c42
+msgid "High stability over temperature"
+msgstr ""
+
+#: ../en/products/imu10a/intro.md:19 690b255b10ee4e4a94fcfd706c11fd2e
+msgid "Magnetometer"
+msgstr ""
+
+#: ../en/products/imu10a/intro.md:20 597d2b7fc64d45728d9b5b58db554142
+msgid "3-axis magnetic field sensing"
+msgstr ""
+
+#: ../en/products/imu10a/intro.md:21 d1ff233b7dcf40a4b760ab6a404534ea
+msgid "Wide dynamic range"
+msgstr ""
+
+#: ../en/products/imu10a/intro.md:22 34d65e5581cb4ade8abbe2ed562846d9
+msgid "Digital compass capability"
+msgstr ""
+
+#: ../en/products/imu10a/intro.md:24 4e6de391269045738d1365efc1e9bf0c
+msgid "Barometer"
+msgstr ""
+
+#: ../en/products/imu10a/intro.md:25 3e70abf3adef478297d6e5aaad125cf8
+msgid "Pressure range: 300-1100 hPa"
+msgstr ""
+
+#: ../en/products/imu10a/intro.md:26 09f63918454b4b4f92dc1d189013c67d
+msgid "Altitude resolution: ±1 meter"
+msgstr ""
+
+#: ../en/products/imu10a/intro.md:27 4829bd01f3974e7ab929b61a0d7b7c15
+msgid "Temperature compensated"
+msgstr ""
+
+#: ../en/products/imu10a/intro.md:29 b4590ccb3bcf477f8225317d7a8eefbf
+msgid "Applications"
+msgstr ""
+
+#: ../en/products/imu10a/intro.md:31 da1470bc05c8483f8dfd7993cce91118
+msgid ""
+"**Drone/UAV navigation**: Complete attitude and heading reference system "
+"(AHRS)"
+msgstr ""
+
+#: ../en/products/imu10a/intro.md:32 3ceff0c406774808992e650d4e24fce5
+msgid "**Robotics**: Precise orientation and motion tracking"
+msgstr ""
+
+#: ../en/products/imu10a/intro.md:33 c161c0a80f0b48179aa9fb9c9bd3960c
+msgid "**Virtual Reality**: Immersive head tracking"
+msgstr ""
+
+#: ../en/products/imu10a/intro.md:34 0dcead16ef884db9bf8f13a95d267627
+msgid "**Wearable Fitness**: Activity recognition and step counting"
+msgstr ""
+
+#: ../en/products/imu10a/intro.md:35 36c96cbbaecc449c8a71a88e9cab7e7a
+msgid "**Industrial Monitoring**: Vibration analysis and tilt sensing"
+msgstr ""
+
+#: ../en/products/imu10a/intro.md:37 e9e7c908a4874390b58c7202356e94a1
+msgid "Quick Start"
+msgstr ""
+
+#: ../en/products/imu10a/intro.md:58 d436ffe0b49445669c03da9a0581b01a
+msgid "For detailed specifications, see [Specifications](specs.md)."
+msgstr ""
+
