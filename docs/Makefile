@@ -1,42 +1,61 @@
-# Makefile for Sphinx documentation
-# This builds both English and Chinese documentation
+# Minimal makefile for Sphinx documentation
+#
 
-.PHONY: help html all en zh_CN clean
+# You can set these variables from the command line, and also
+# from the environment for the first two.
+SPHINXOPTS    ?=
+SPHINXBUILD   ?= sphinx-build
+SOURCEDIR_EN  = source/en
+SOURCEDIR_ZH  = source/zh_CN
+BUILDDIR      = build
+
+# Put it first so that "make" without argument is like "make help".
+.PHONY: help clean html html-en html-zh livehtml livehtml-en livehtml-zh
 
 help:
-	@echo "Please use \`make <target>' where <target> is one of"
-	@echo "  html        to make standalone HTML files for both en and zh_CN"
-	@echo "  all         same as html"
-	@echo "  en          to make standalone HTML files for en only"
-	@echo "  zh_CN       to make standalone HTML files for zh_CN only"
-	@echo "  clean       to clean build artifacts in all subdirectories"
+	@echo "Please use 'make <target>' where <target> is one of"
+	@echo "  html        to make both English and Chinese HTML files"
+	@echo "  html-en     to make English HTML files"
+	@echo "  html-zh     to make Chinese HTML files"
+	@echo "  livehtml    to start auto-rebuild server for English docs"
+	@echo "  livehtml-en to start auto-rebuild server for English docs"
+	@echo "  livehtml-zh to start auto-rebuild server for Chinese docs"
+	@echo "  clean       to remove all build files"
 
-all: html
-
-html:
-	@echo "Building English documentation..."
-	@$(MAKE) -C en html
-	@echo "Building Chinese documentation..."
-	@$(MAKE) -C zh_CN html
+# Build both languages
+html: html-en html-zh
 	@echo
-	@echo "Build finished. The HTML pages are in en/_build/html and zh_CN/_build/html."
+	@echo "Build finished. Both English and Chinese HTML pages are in $(BUILDDIR)/html/"
 
-en:
-	@echo "Building English documentation..."
-	@$(MAKE) -C en html
+# Build English documentation
+html-en:
+	$(SPHINXBUILD) -b html $(SPHINXOPTS) $(SOURCEDIR_EN) $(BUILDDIR)/html/en
 	@echo
-	@echo "Build finished. The HTML pages are in en/_build/html."
+	@echo "Build finished. The English HTML pages are in $(BUILDDIR)/html/en."
 
-zh_CN:
-	@echo "Building Chinese documentation..."
-	@$(MAKE) -C zh_CN html
+# Build Chinese documentation
+html-zh:
+	$(SPHINXBUILD) -b html $(SPHINXOPTS) $(SOURCEDIR_ZH) $(BUILDDIR)/html/zh_CN
 	@echo
-	@echo "Build finished. The HTML pages are in zh_CN/_build/html."
+	@echo "Build finished. The Chinese HTML pages are in $(BUILDDIR)/html/zh_CN."
 
+# Live reload for development (requires sphinx-autobuild)
+livehtml: livehtml-en
+
+livehtml-en:
+	@echo "Starting live reload server for English docs at http://localhost:8000"
+	sphinx-autobuild -b html $(SOURCEDIR_EN) $(BUILDDIR)/html/en --port 8000
+
+livehtml-zh:
+	@echo "Starting live reload server for Chinese docs at http://localhost:8001"
+	sphinx-autobuild -b html $(SOURCEDIR_ZH) $(BUILDDIR)/html/zh_CN --port 8001
+
+# Clean build directory
 clean:
-	@echo "Cleaning English documentation..."
-	@$(MAKE) -C en clean
-	@echo "Cleaning Chinese documentation..."
-	@$(MAKE) -C zh_CN clean
-	@echo
-	@echo "Clean finished."
+	rm -rf $(BUILDDIR)
+	@echo "Build directory cleaned."
+
+# Catch-all target: route all unknown targets to Sphinx using the new
+# "make mode" option.  $(O) is meant as a shortcut for $(SPHINXOPTS).
+%: Makefile
+	$(SPHINXBUILD) -M $@ $(SOURCEDIR_EN) $(BUILDDIR) $(SPHINXOPTS) $(O)

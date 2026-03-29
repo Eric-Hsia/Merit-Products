@@ -1,57 +1,73 @@
 @ECHO OFF
 
-IF "%1"=="" GOTO help
+pushd %~dp0
 
-IF /I "%1"=="html" GOTO html
-IF /I "%1"=="en" GOTO en
-IF /I "%1"=="zh_CN" GOTO zh_CN
-IF /I "%1"=="clean" GOTO clean
-IF /I "%1"=="help" GOTO help
+REM Command file for Sphinx documentation
 
-GOTO help
+if "%SPHINXBUILD%" == "" (
+	set SPHINXBUILD=sphinx-build
+)
+set SOURCEDIR_EN=source\en
+set SOURCEDIR_ZH=source\zh_CN
+set BUILDDIR=build
 
-:html
-ECHO Building English documentation...
-CD en
-CALL make.bat html
-CD ..
-ECHO.
-ECHO Building Chinese documentation...
-CD zh_CN
-CALL make.bat html
-CD ..
-GOTO end
+%SPHINXBUILD% >NUL 2>NUL
+if errorlevel 9009 (
+	echo.
+	echo.The 'sphinx-build' command was not found. Make sure you have Sphinx
+	echo.installed, then set the SPHINXBUILD environment variable to point
+	echo.to the full path of the 'sphinx-build' executable. Alternatively you
+	echo.may add the Sphinx directory to PATH.
+	echo.
+	echo.If you don't have Sphinx installed, grab it from
+	echo.https://www.sphinx-doc.org/
+	exit /b 1
+)
 
-:en
-ECHO Building English documentation...
-CD en
-CALL make.bat html
-CD ..
-GOTO end
+if "%1" == "" goto help
+if "%1" == "help" goto help
+if "%1" == "html" goto html
+if "%1" == "html-en" goto html-en
+if "%1" == "html-zh" goto html-zh
+if "%1" == "clean" goto clean
 
-:zh_CN
-ECHO Building Chinese documentation...
-CD zh_CN
-CALL make.bat html
-CD ..
-GOTO end
-
-:clean
-ECHO Cleaning English documentation...
-CD en
-CALL make.bat clean
-CD ..
-ECHO Cleaning Chinese documentation...
-CD zh_CN
-CALL make.bat clean
-CD ..
-GOTO end
+goto default
 
 :help
-ECHO Please use `make <target>' where `<target>' is one of
-ECHO   html        to make standalone HTML files for both en and zh_CN
-ECHO   en          to make standalone HTML files for English only
-ECHO   zh_CN       to make standalone HTML files for Chinese only
-ECHO   clean       to clean build artifacts in both directories
+echo.Please use 'make ^<target^>' where ^<target^> is one of
+echo.  html        to make both English and Chinese HTML files
+echo.  html-en     to make English HTML files
+echo.  html-zh     to make Chinese HTML files
+echo.  clean       to remove all build files
+goto end
+
+:html
+call :html-en
+call :html-zh
+echo.
+echo.Build finished. Both English and Chinese HTML pages are in %BUILDDIR%/html/
+goto end
+
+:html-en
+%SPHINXBUILD% -b html %SPHINXOPTS% %SOURCEDIR_EN% %BUILDDIR%/html/en
+echo.
+echo.Build finished. The English HTML pages are in %BUILDDIR%/html/en.
+goto end
+
+:html-zh
+%SPHINXBUILD% -b html %SPHINXOPTS% %SOURCEDIR_ZH% %BUILDDIR%/html/zh_CN
+echo.
+echo.Build finished. The Chinese HTML pages are in %BUILDDIR%/html/zh_CN.
+goto end
+
+:clean
+if exist %BUILDDIR% rmdir /S /Q %BUILDDIR%
+echo.Build directory cleaned.
+goto end
+
+:default
+%SPHINXBUILD% -M %1 %SOURCEDIR_EN% %BUILDDIR% %SPHINXOPTS% %O%
+goto end
 
 :end
+popd
