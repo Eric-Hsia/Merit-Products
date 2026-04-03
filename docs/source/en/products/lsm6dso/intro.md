@@ -29,5 +29,6 @@ To get started with the LSM6DSO-6DoF module:
 2. Install the provided driver library
 3. Initialize the sensor and start reading data
 4. Check the output from serial port
+5. list
 
 Refer to the [Specifications](specs.md) for detailed technical parameters.
