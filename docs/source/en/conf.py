@@ -48,7 +48,7 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 # -- HTML output options -----------------------------------------------------
 html_theme = 'sphinx_rtd_theme'
 html_static_path = ['../../_static']
-html_logo = '../../_static/merit-logo.svg'
+html_logo = '../../_static/merit-logo.png'
 
 html_theme_options = {
     'navigation_depth': 4,
@@ -56,6 +56,7 @@ html_theme_options = {
     'sticky_navigation': True,
     'includehidden': True,
     'titles_only': False,
+    'logo_only': False,
 }
 
 html_context = {
