@@ -52,6 +52,7 @@ html_theme_options = {
     'sticky_navigation': True,
     'includehidden': True,
     'titles_only': False,
+    'logo_only': True,
 }
 
 html_context = {
