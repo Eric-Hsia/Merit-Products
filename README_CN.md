@@ -1,6 +1,6 @@
 # Merit产品
 
-[![文档](https://img.shields.io/badge/文档-在线-blue)](https://merit-products.readthedocs.io)
+[![文档](https://img.shields.io/badge/文档-在线-blue)](https://merit-products.readthedocs.io/zh_CN/latest/)
 [![许可证](https://img.shields.io/badge/许可证-Apache%202.0-green)](LICENSE-APACHE)
 
 **Merit-Products** 是 Merit公司硬件产品的文档与示例代码仓库，包含所有受支持产品的用户指南、技术参考文档和示例固件/软件代码。

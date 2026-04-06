@@ -1,6 +1,6 @@
 # Merit-Products
 
-[![Documentation](https://img.shields.io/badge/docs-online-blue)](https://merit-products.readthedocs.io)
+[![Documentation](https://img.shields.io/badge/docs-online-blue)](https://merit-products.readthedocs.io/en/latest/)
 [![License](https://img.shields.io/badge/license-Apache%202.0-green)](LICENSE-APACHE)
 
 **Merit-Products** is a documentation and example repository for Merit hardware products. This repository contains user guides, technical references, and example code for all supported products.
@@ -95,5 +95,5 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) before submitting pull requests.
 
 ## License
 
-- Source code in `examples/`: [Apache License 2.0](LICENSE-APACHE)
-- Documentation in `docs/`: [Creative Commons Attribution-ShareAlike 4.0](LICENSE-CC-BY-SA)
+* Source code in `examples/`: [Apache License 2.0](LICENSE-APACHE)
+* Documentation in `docs/`: [Creative Commons Attribution-ShareAlike 4.0](LICENSE-CC-BY-SA)

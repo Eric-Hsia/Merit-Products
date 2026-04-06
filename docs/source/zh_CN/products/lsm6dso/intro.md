@@ -4,13 +4,18 @@
 
 **LSM6DSO-6DoF** 是一款高性能六轴惯性测量单元（IMU）模块，在一个紧凑的封装内集成了三轴加速度计和三轴陀螺仪。
 
+> LSM6DSOW/LSM6DSOX **传感器模块**  
+
+![LSM6DSOW sensor module 3D View](../../../../_static/merit-lsm6dso-6DoF/v2.1/merit-lsm6dso-6DoF-front.png)  
+*lsmydso-6DoF 正视图*
+
 ## 主要特性
 
 - **三轴加速度计**：±2/±4/±8/±16 g 全量程范围
 - **三轴陀螺仪**：±125/±250/±500/±1000/±2000 dps 全量程范围
 - **数字输出**：支持 I²C/SPI 接口
 - **低功耗**：适合电池供电应用
-- **紧凑尺寸**：2.5mm × 3.0mm × 0.83mm
+- **紧凑尺寸**：25.4mm × 17.8mm x 5.8mm
 
 ## 应用领域
 
