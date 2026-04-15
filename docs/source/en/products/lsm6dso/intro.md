@@ -30,7 +30,7 @@ To make getting started fast and easy, we placed the sensors on compact breakout
 - **3-axis gyroscope**: ±125/±250/±500/±1000/±2000 dps full-scale range
 - **Digital output**: I²C/SPI & MIPI I3C interface
 - **Low power consumption**: Ideal for battery-powered applications
-- **Compact size**: 2.5mm × 3.0mm × 0.83mm
+- **Compact size**: 25.4mm × 17.8mm x 5.8mm
 
 ## Applications
 
@@ -50,6 +50,5 @@ To get started with the LSM6DSO-6DoF module:
 2. Install the provided driver library
 3. Initialize the sensor and start reading data
 4. Check the output from serial port
-5. list
 
 Refer to the [Specifications](specs.md) for detailed technical parameters.
