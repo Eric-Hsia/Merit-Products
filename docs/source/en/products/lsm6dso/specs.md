@@ -2,31 +2,31 @@
 
 ## Electrical Characteristics
 
-| Parameter | Value | Unit |
-|-----------|-------|------|
-| Supply Voltage (VDD) | 1.71 - 3.6 | V |
-| Supply Voltage (VDDIO) | 1.62 - 3.6 | V |
-| Operating Current (High Performance) | 0.55 | mA |
-| Operating Current (Low Power) | 4 | µA |
-| Temperature Range | -40 to +85 | °C |
+| Parameter                            | Value      | Unit |
+| :------------------------------------:| :----------:| :----:|
+| Supply Voltage (VDD)                 | 1.71 - 3.6 | V    |
+| Supply Voltage (VDDIO)               | 1.62 - 3.6 | V    |
+| Operating Current (High Performance) | 0.55       | mA   |
+| Operating Current (Low Power)        | 4          | µA   |
+| Temperature Range                    | -40 to +85 | °C   |
 
 ## Accelerometer Specifications
 
-| Parameter | Value |
-|-----------|-------|
-| Full-Scale Range | ±2, ±4, ±8, ±16 g |
-| Sensitivity | 0.061, 0.122, 0.244, 0.488 mg/LSB |
-| Output Data Rate | 1.6 Hz - 6.66 kHz |
-| Noise Density | 70 µg/√Hz |
+| Parameter        | Value                             |
+| :----------------:| :---------------------------------:|
+| Full-Scale Range | ±2, ±4, ±8, ±16 g                 |
+| Sensitivity      | 0.061, 0.122, 0.244, 0.488 mg/LSB |
+| Output Data Rate | 1.6 Hz - 6.66 kHz                 |
+| Noise Density    | 70 µg/√Hz                         |
 
 ## Gyroscope Specifications
 
-| Parameter | Value |
-|-----------|-------|
-| Full-Scale Range | ±125, ±250, ±500, ±1000, ±2000 dps |
-| Sensitivity | 4.375, 8.75, 17.50, 35.0, 70.0 mdps/LSB |
-| Output Data Rate | 12.5 Hz - 6.66 kHz |
-| Noise Density | 4.0 mdps/√Hz |
+| Parameter        | Value                                   |
+| ------------------| -----------------------------------------|
+| Full-Scale Range | ±125, ±250, ±500, ±1000, ±2000 dps      |
+| Sensitivity      | 4.375, 8.75, 17.50, 35.0, 70.0 mdps/LSB |
+| Output Data Rate | 12.5 Hz - 6.66 kHz                      |
+| Noise Density    | 4.0 mdps/√Hz                            |
 
 ## Mechanical Dimensions
 

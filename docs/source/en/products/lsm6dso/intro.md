@@ -15,13 +15,14 @@ To make getting started fast and easy, we placed the sensors on compact breakout
 
 ### Schematic
 
-> **The schematic is identical for the LSM6DSOX and LSM6DSO.**
+> **The schematic is identical for the LSM6DSOX and LSM6DSO.**  
 
 ![LSM6DSO Module's Schematic](../../../../_static/merit-lsm6dso-6DoF/v2.1/merit-lsm6dso-6DoF-Schematic.png)
 
 ### Dimensions
 
 > **The dimensions are identical for the LSM6DSOX and LSM6DSO.**  
+
  ![LSM6DSO Module's Dimension](../../../../_static/merit-lsm6dso-6DoF/v2.1/merirt-lsm6dso-6DoF-Assembly-Drawings.png)
 
 ## Features

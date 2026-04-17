@@ -22,6 +22,7 @@
 ### 尺寸图
 
 > **LSM6DSOX 和 LSM6DSO 的尺寸图是相同的。**  
+
   ![LSM6DSO Module's Dimension](../../../../_static/merit-lsm6dso-6DoF/v2.1/merirt-lsm6dso-6DoF-Assembly-Drawings.png)
 
 ## 主要特性
