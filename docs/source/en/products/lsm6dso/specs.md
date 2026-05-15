@@ -1,10 +1,14 @@
 # Specifications
 
+## Pinout Diagram
+
+![LSM6DSO Pinout Diagram](../../../../_static/merit-lsm6dso-6DoF/v2.1/merit-lsm6dso-6DoF-Pinout-Diagram.png.png)
+
 ## Electrical Characteristics
 
 | Parameter                            | Value      | Unit |
 | :------------------------------------:| :----------:| :----:|
-| Supply Voltage (VDD)                 | 1.71 - 3.6 | V    |
+| Supply Voltage (VIN)                 | 3.3/5      | V    |
 | Supply Voltage (VDDIO)               | 1.62 - 3.6 | V    |
 | Operating Current (High Performance) | 0.55       | mA   |
 | Operating Current (Low Power)        | 4          | µA   |

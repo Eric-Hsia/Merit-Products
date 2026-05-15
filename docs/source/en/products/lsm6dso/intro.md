@@ -27,21 +27,21 @@ To make getting started fast and easy, we placed the sensors on compact breakout
 
 ## Features
 
-- **3-axis accelerometer**: ±2/±4/±8/±16 g full-scale range
-- **3-axis gyroscope**: ±125/±250/±500/±1000/±2000 dps full-scale range
-- **Digital output**: I²C/SPI & MIPI I3C interface
-- **Low power consumption**: Ideal for battery-powered applications
-- **Compact size**: 25.4mm × 17.8mm x 5.8mm
+* **3-axis accelerometer**: ±2/±4/±8/±16 g full-scale range
+* **3-axis gyroscope**: ±125/±250/±500/±1000/±2000 dps full-scale range
+* **Digital output**: I²C/SPI & MIPI I3C interface
+* **Low power consumption**: Ideal for battery-powered applications
+* **Compact size**: 25.4mm × 17.8mm x 5.8mm
 
 ## Applications
 
-- Motion tracking and gesture detection
-- Sensor hub
-- Indoor navigation
-- IoT and connected devices
-- Smart power saving for handheld devices
-- EIS and OIS for camera applications
-- Vibration monitoring and compensation
+* Motion tracking and gesture detection
+* Sensor hub
+* Indoor navigation
+* IoT and connected devices
+* Smart power saving for handheld devices
+* EIS and OIS for camera applications
+* Vibration monitoring and compensation
 
 ## Getting Started
 
@@ -51,5 +51,9 @@ To get started with the LSM6DSO-6DoF module:
 2. Install the provided driver library
 3. Initialize the sensor and start reading data
 4. Check the output from serial port
+
+## Test Firmware
+
+* [LSM6DSOX Test Firmware Download](https://github.com/Eric-Hsia/lsm6dso_test_stm32f411c)
 
 Refer to the [Specifications](specs.md) for detailed technical parameters.
