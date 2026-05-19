@@ -1,4 +1,8 @@
-# 规格参数
+<h1 align="center">LSM6DSOX 规格参数</h1>
+
+## 引脚图
+
+![LSM6DSOX Pinout Diagram](../../../../_static/merit-lsm6dso-6DoF/v2.1/merit-lsm6dso-6DoF-Pinout-Diagram.png.png)
 
 ## 电气特性
 
@@ -36,24 +40,31 @@
 
 ## 引脚配置
 
-| 引脚 | 名称 | 功能 |
-|------|------|------|
-| 1 | VDDIO | 数字 I/O 供电 |
-| 2 | SCL | I²C 时钟 / SPI 时钟 |
-| 3 | SDA | I²C 数据 / SPI 数据输入 |
-| 4 | SDO | SPI 数据输出 / I²C 地址选择 |
-| 5 | CS | SPI 片选 |
-| 6 | INT1 | 中断 1 |
-| 7 | INT2 | 中断 2 |
-| 8 | GND | 地 |
-| 9 | VDD | 电源供电 |
+| 引脚 |   名称  |                              功能描述                             |
+|:---:|:-------:|:-----------------------------------------------------------------:|
+|  1  |   VIN   |                          Power Input, 3-5V                         |
+|  2  |   3.3V  |               3.3V output from the voltage regulator              |
+|  3  |   GND   |                 common ground for power and logic                 |
+|  4  |   SDA   |                            I2C data pin                           |
+|  5  |   SCL   |                           I2C clock pin                           |
+|  6  |   SDO   |          1. SPI serial data output 2. I2C I2C Address pin         |
+|  7  |   IN1   |               Programmable interrupt in I²C and SPI               |
+|  8  |   IN2   |                      Programmable interrupt 2                     |
+|  9  |    CS   |                      Chip Select pin for SPI                      |
+|  10 |   GND   |                 common ground for power and logic                 |
+|  11 | OCS_AUX | Pins for advanced users to connect the LSM6DSOX to another sensor |
+|  12 | SDO_AUX | Pins for advanced users to connect the LSM6DSOX to another sensor |
+|  13 |   SDx   | Pins for advanced users to connect the LSM6DSOX to another sensor |
+|  14 |   SCx   | Pins for advanced users to connect the LSM6DSOX to another sensor |
 
 ## 通信接口
 
 ### I²C 模式
+
 - **地址**：0x6A (SDO=GND) 或 0x6B (SDO=VDDIO)
 - **速度**：标准模式 (100 kHz)、快速模式 (400 kHz)、快速+模式 (1 MHz)
 
 ### SPI 模式
+
 - **模式**：0 (CPOL=0, CPHA=0) 或 3 (CPOL=1, CPHA=1)
 - **速度**：最高 10 MHz
