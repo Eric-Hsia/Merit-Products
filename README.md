@@ -23,18 +23,14 @@ Merit-Products/
 │   │   │   ├── conf.py        # Sphinx configuration
 │   │   │   ├── index.rst      # Main index
 │   │   │   └── products/      # Product documentation
-│   │   │       ├── lsm6dso/   # LSM6DSO-6DoF module
-│   │   │       │   ├── intro.md
-│   │   │       │   └── specs.md
-│   │   │       └── imu10a/    # IMU10A module
+│   │   │       └── lsm6dso/   # LSM6DSO-6DoF module
 │   │   │           ├── intro.md
 │   │   │           └── specs.md
 │   │   └── zh_CN/             # Simplified Chinese documentation
 │   │       ├── conf.py
 │   │       ├── index.rst
 │   │       └── products/
-│   │           ├── lsm6dso/
-│   │           └── imu10a/
+│   │           └── lsm6dso/
 │   ├── Makefile               # Build automation (Linux/macOS)
 │   ├── make.bat               # Build automation (Windows)
 │   └── requirements.txt       # Python dependencies
@@ -81,7 +77,6 @@ The built HTML will be located in `docs/build/html/en/` or `docs/build/html/zh_C
 | Product Name       | Category          | Docs (EN)                                   | Docs (中文)　　　　　　　　　　　　　　　　　　|
 | --------------------| -------------------| ---------------------------------------------| ------------------------------------------------|
 | LSM6DSO-6DoF       | 6DoF IMU Module   | [EN](docs/source/en/products/lsm6dso/)      | [中文](docs/source/zh_CN/products/lsm6dso/)     |
-| IMU10A             | 10-Axis IMU Module| [EN](docs/source/en/products/imu10a/)       | [中文](docs/source/zh_CN/products/imu10a/)      |
 
 > Add your products to this table as you create their documentation.
 

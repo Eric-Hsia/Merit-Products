@@ -23,18 +23,14 @@ Merit-Products/
 │   │   │   ├── conf.py        # Sphinx 配置
 │   │   │   ├── index.rst      # 主索引
 │   │   │   └── products/      # 产品文档
-│   │   │       ├── lsm6dso/   # LSM6DSO-6DoF 模块
-│   │   │       │   ├── intro.md
-│   │   │       │   └── specs.md
-│   │   │       └── imu10a/    # IMU10A 模块
+│   │   │       └── lsm6dso/   # LSM6DSO-6DoF 模块
 │   │   │           ├── intro.md
 │   │   │           └── specs.md
 │   │   └── zh_CN/             # 中文简体文档
 │   │       ├── conf.py
 │   │       ├── index.rst
 │   │       └── products/
-│   │           ├── lsm6dso/
-│   │           └── imu10a/
+│   │           └── lsm6dso/
 │   ├── Makefile               # 构建脚本（Linux/macOS）
 │   ├── make.bat               # 构建脚本（Windows）
 │   └── requirements.txt       # Python 依赖
@@ -81,7 +77,6 @@ make html-zh    # 仅中文
 | 产品名称　　　　　 | 分类　　　　　　　 | 英文文档　　　　　　　　　　　　　　　　　　　| 中文文档　　　　　　　　　　　　　　　　　 　　　 |
 | --------------------| --------------------| -----------------------------------------------| --------------------------------------------------|
 | LSM6DSO-6DoF       | 六轴 IMU 模块　　　| [EN](docs/source/en/products/lsm6dso/)        | [中文](docs/source/zh_CN/products/lsm6dso/)       |
-| IMU10A　　　　　　 | 十轴惯性测量模块　 | [EN](docs/source/en/products/imu10a/)         | [中文](docs/source/zh_CN/products/imu10a/)        |
 
 > 创建新产品文档后，请将其添加到上表中。
 

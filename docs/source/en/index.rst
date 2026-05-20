@@ -8,7 +8,6 @@ Welcome to the **Merit-Products** documentation. This site provides hardware use
    :caption: Products
 
    products/lsm6dso/index
-   products/imu10a/index
 
 .. toctree::
    :maxdepth: 1

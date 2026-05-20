@@ -2,11 +2,13 @@
 
 ## Overview
 
-The **LSM6DSO-6DoF** is a high-performance 6-axis inertial measurement unit (IMU) module, combining a 3-axis accelerometer and a 3-axis gyroscope in a compact package.   
+The **LSM6DSO-6DoF** is a high-performance 6-axis inertial measurement unit (IMU) module, combining a 3-axis accelerometer and a 3-axis gyroscope in a compact package.  
 
 For interfacing, you can use either **SPI or I2C** - there are two configurable interrupt pins. For advanced usage, you can attach additional devices to an external **I2C/SPI** port - used for optical image stabilization.  
 
 To make getting started fast and easy, we placed the sensors on compact breakout boards with voltage regulation and level-shifted inputs. That way you can use them with **3V or 5V** power/logic devices without worry.
+
+![lsm6dso-6dof-module](../../../../_static/merit-lsm6dso-6DoF/v2.1/merit-lsm6dso-6DoF-front.png)
 
 ### Datasheet
 
@@ -52,8 +54,16 @@ To get started with the LSM6DSO-6DoF module:
 3. Initialize the sensor and start reading data
 4. Check the output from serial port
 
-## Test Firmware
+### Test Firmware(Based on STM32F411)
 
 * [LSM6DSOX Test Firmware Download](https://github.com/Eric-Hsia/lsm6dso_test_stm32f411c)
+
+### Test with Arduino(Thanks to Adafruit)
+
+* [Arduino](https://learn.adafruit.com/lsm6dsox-and-ism330dhc-6-dof-imu/arduino)
+
+### Test with CircuitPython(Thanks to Adafruit)
+
+* [CircuitPython](https://learn.adafruit.com/lsm6dsox-and-ism330dhc-6-dof-imu/python-circuitpython)
 
 Refer to the [Specifications](specs.md) for detailed technical parameters.

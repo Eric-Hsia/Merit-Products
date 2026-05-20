@@ -8,6 +8,8 @@
 
 为了快速轻松地开始使用，我们将传感器放置在紧凑的扩展板上，带有电压调节和电平转换输入。这样，您就可以放心地将其与 **3V 或 5V**电源/逻辑设备一起使用。
 
+![lsm6dso-6dof-module](../../../../_static/merit-lsm6dso-6DoF/v2.1/merit-lsm6dso-6DoF-front.png)
+
 ### 数据手册
 
 * [LSM6DSO](https://www.st.com/resource/en/datasheet/lsm6dso.pdf)
@@ -15,7 +17,7 @@
 
 ### 原理图
 
-> **LSM6DSOX 和 LSM6DSO 的原理图是相同的。**    
+> **LSM6DSOX 和 LSM6DSO 的原理图是相同的。**  
 
 ![LSM6DSO Module's Schematic](../../../../_static/merit-lsm6dso-6DoF/v2.1/merit-lsm6dso-6DoF-Schematic.png)
 
@@ -52,8 +54,16 @@
 3. 初始化传感器并开始读取数据
 4. 通过串口查看输出
 
-## 测试固件
+### 测试固件(基于STM32F411)
 
 * [LSM6DSOX 测试固件下载](https://github.com/Eric-Hsia/lsm6dso_test_stm32f411c)
+
+### 使用 Arduino 进行测试(感谢 Adafruit)
+
+* [Arduino](https://learn.adafruit.com/lsm6dsox-and-ism330dhc-6-dof-imu/arduino)
+
+### 使用 CircuitPython 进行测试(感谢 Adafruit)
+
+* [CircuitPython](https://learn.adafruit.com/lsm6dsox-and-ism330dhc-6-dof-imu/python-circuitpython)
 
 详细技术参数请参考 [规格参数](specs.md)。

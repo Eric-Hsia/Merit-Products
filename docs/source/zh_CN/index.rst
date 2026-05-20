@@ -8,7 +8,6 @@ Merit-Products 文档
    :caption: 产品列表
 
    products/lsm6dso/index
-   products/imu10a/index
 
 .. toctree::
    :maxdepth: 1

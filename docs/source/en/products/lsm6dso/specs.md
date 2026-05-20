@@ -1,4 +1,4 @@
-<h1 align="center">LSM6DSOX Specifications</h1>
+# LSM6DSOX Specifications
 
 ## Pinout Diagram
 
@@ -9,7 +9,6 @@
 | Parameter                            | Value      | Unit |
 | :------------------------------------:| :----------:| :----:|
 | Supply Voltage (VIN)                 | 3-5      | V    |
-| Supply Voltage (VDDIO)               | 1.62 - 3.6 | V    |
 | Operating Current (High Performance) | 0.55       | mA   |
 | Operating Current (Low Power)        | 4          | µA   |
 | Temperature Range                    | -40 to +85 | °C   |
@@ -32,12 +31,6 @@
 | Output Data Rate | 12.5 Hz - 6.66 kHz                      |
 | Noise Density    | 4.0 mdps/√Hz                            |
 
-## Mechanical Dimensions
-
-- **Package**: LGA-14
-- **Dimensions**: 2.5mm × 3.0mm × 0.83mm
-- **Weight**: ~10 mg
-
 ## Pin Configuration
 
 | Pin |   Name  |                              Function                             |
@@ -59,12 +52,16 @@
 
 ## Communication Interface
 
-### I²C Mode
+### I²C Mode(Default)
 
-- **Address**: 0x6A (SDO=GND) or 0x6B (SDO=VDDIO)
-- **Speed**: Standard (100 kHz), Fast (400 kHz), Fast+ (1 MHz)
+- **Address**: 0x6A (SDO=GND) or 0x6B (SDO=VDDIO，焊盘焊接)
+- **Speed**: Standard (100 kHz), Fast (400 kHz)
+
+> **I2C Address Set**：Optimized tool selectionBy default, the SDO pin is tied to GND and the device address is `0x6A`. Connecting the SDO pin to `VDDIO` (with a solder jumper) changes the device address to `0x6B`. This allows two LSM6DSOX devices to share the same I²C bus.
+
+![I2C Address Set](../../../../_static/merit-lsm6dso-6DoF/v2.1/merit-lsm6dso-6DoF-address-set.png)
 
 ### SPI Mode
 
-- **Mode**: 0 (CPOL=0, CPHA=0) or 3 (CPOL=1, CPHA=1)
+- **Mode**: 0 or 3
 - **Speed**: Up to 10 MHz
